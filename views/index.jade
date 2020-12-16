@@ -1,0 +1,169 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Landing Zero Free Bootstrap Theme with Video
+  meta(name='description' content='This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design.')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(name='generator' content='Codeply')
+  link(rel='stylesheet' href='/bootstrap/css/bootstrap.min.css')
+  link(rel='stylesheet' href='/bootstrap/css/animate.min.css')
+  link(rel='stylesheet' href='/bootstrap/css/ionicons.min.css')
+  link(rel='stylesheet' href='/bootstrap/css/styles.css')
+nav#topNav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-navbar')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.page-scroll(href='#first', style='color:#fff')
+        |  Nightsong Digital
+    #bs-navbar.navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li
+          a.page-scroll(href='#one') Who are we
+        li
+          a.page-scroll(href='#two') Our Work
+        li
+          a.page-scroll(href='#three') Our Services
+      ul.nav.navbar-nav.navbar-right
+        //- li
+        //-   a.page-scroll(href='#last') Contact
+header#first
+  .header-content
+    .inner
+      img(src='/images/logos/logo.png', height='300px', width='300px')
+      h1 Say goodbye to brand deals
+      h4 We provide you with the tools to make doing what you love become your full time job. By leveraging the audience you’ve created, we provide the creation of custom apps, guides, courses and more to help you create new business opportunities and diversify your income so that your content really pays. Advertisement revenue can only go so far, we help change that and provide you with multiple income streams so that you can focus on doing what you love.
+      hr
+      a.btn.btn-primary.btn-xl.page-scroll(href='#last') Contact Us
+section#one.bg-primary
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.margin-top-0.text-primary Who are we?
+        hr
+        p.text-faded
+          | Our clients primarily consist of streamers, youtubers and gamers. Utilising our inhouse team of engineers, designers and business experts, we provide a new business strategy. Furthermore we provide end to end services, from concept to creation, and support you in building a business that’s sustainable in the long run.
+        p.text-faded
+          | By owning your own intellectual property, whether that’s an app containing unique content or game guides, to exclusive behind the scenes content delivered through your own website. We are separate from streaming platforms and video hosting providers, which means you make more money, and are not under the same rules or restrictions as others, giving you a competitive edge in doing what you love.
+        a.btn.btn-default.btn-xl.page-scroll(href='#three') Learn More
+        br
+        br
+  .container#two
+    .row
+      .col-lg-12.text-center
+        h2.margin-top-0.text-primary.wow.fadeRight How do we work?
+        hr
+        p.text-faded.wow.fadeLeft 
+          | Our work starts with you. We understand that many of our clients are incredibly passionate about what they do, and we aim to work in such a way that it allows us to create new products and services for the audience you’ve already created. By harnessing your influence and existing content, we help repackage that into new technologies and ideas to help unlock growth.
+        p.text-faded.wow.fadeRight
+          | We work side by side with our clients, making sure that all ideas and avenues can be explored. What we create will always be dictated by and tailored to your unique perspective and audience, as that’s what made you successful in the first place.
+        p.text-faded.wow.fadeLeft
+          | We understand that there is no “one size fits all”, so our established team of engineers and designers will help create something amazing that unlocks your true potential, from inception to production and beyond.
+  #three.container-fluid
+  .row
+    .col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4
+      h2.text-center.text-primary Our Services
+      hr
+      .media.wow.fadeInRight
+        h3 Brand creation
+        .media-body.media-middle
+          p Brand creation - Help unlock your hobby and create a branch that truly resonates with your audience. We provide end to end services to turn you into a CEO.
+        .media-right
+          i.icon-lg.ion-ios-heart-outline
+      hr
+      .media.wow.fadeIn
+        h3 Brand Strategy
+        .media-left
+          a(href='#alertModal' data-toggle='modal' data-target='#alertModal')
+            i.icon-lg.ion-ios-bolt-outline
+        .media-body.media-middle
+          p Brand Strategy - From social media management to helping expand your brand, we do it all. Our strategy focused on creating a loyal customer base through unique fan clubs, incentives and more.
+      hr
+      .media.wow.fadeInRight
+        h3 Mobile Apps and websites 
+        .media-body.media-middle
+          p Mobile Apps and websites - We provide custom software, tailored to your brand and audience to provide them a unique experience.
+        .media-right
+          i.icon-lg.ion-ios-flask-outline
+      hr
+      .media.wow.fadeIn
+        h3 Your own platform
+        .media-left
+          i.icon-lg.ion-ios-cloud-download-outline
+        .media-body.media-middle
+          p
+            | Your own platform - we can make websites and apps where you can post exclusive content, and create a place where you define the rules, not video hosting providers
+       hr
+      .media.wow.fadeIn
+        h3 Custom Features
+        .media-body.media-middle
+          p We can also create other custom integrations and solutions depending on your needs, including...
+          p - Custom eCommerce websites
+          p - Language translation services 
+          p - Custom streaming apps
+          p - Game guides
+          p - Mobile game eShops
+          p - Role Playing Games, FPS games and more
+          p - Behind the scenes clubs and services
+          p - Discord and Twitch Bots
+          p - Patreon integration
+        .media-right
+          i.icon-lg.ion-ios-color-wand-outline
+  .container#last
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        h2.text-primary.margin-top-0.wow.fadeIn Get in Touch
+        hr.primary
+        p
+          | We love feedback. Fill out the form below and we&apos;ll get back to you as soon as possible.
+      .col-lg-10.col-lg-offset-1.text-center
+        form.contact-form.row
+          .col-md-4
+            label
+            input.form-control(type='text' placeholder='Name/Company')
+          .col-md-4
+            label
+            input.form-control(type='text' placeholder='Email')
+          .col-md-4
+            label
+            input.form-control(type='text' placeholder='Phone')
+          .col-md-12
+            label
+            textarea.form-control(rows='9' placeholder='Your message here..')
+          .col-md-4.col-md-offset-4
+            label
+            button.btn.btn-primary.btn-block.btn-lg(type='button' data-toggle='modal' data-target='#alertModal')
+              | Send 
+              i.ion-android-arrow-forward
+footer#footer
+  p &copy; 2020 Nightsong Digital
+#galleryModal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-body
+        img#galleryImage.img-responsive(src='')
+        p
+          br
+          button.btn.btn-primary.btn-lg.center-block(data-dismiss='modal' aria-hidden='true')
+            | Close 
+            i.ion-android-close
+#alertModal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-body
+        h2.text-center Nice Job!
+        p.text-center
+          | You clicked the button, but it doesn&apos;t actually go anywhere because this is only a demo.
+        br
+        button.btn.btn-primary.btn-lg.center-block(data-dismiss='modal' aria-hidden='true')
+          | OK 
+          i.ion-android-close
+// scripts loaded here
+script(src='/bootstrap/js/jquery.min.js')
+script(src='/bootstrap/js/bootstrap.min.js')
+script(src='/bootstrap/js/jquery.easing.min.js')
+script(src='/bootstrap/js/wow.js')
+script(src='/bootstrap/js/scripts.js')
