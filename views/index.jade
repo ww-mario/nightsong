@@ -123,19 +123,19 @@ section#one.bg-primary
         form.contact-form.row
           .col-md-4
             label
-            input.form-control(type='text' placeholder='Name/Company')
+            input.form-control(type='text' placeholder='Name/Company', name='company')
           .col-md-4
             label
-            input.form-control(type='text' placeholder='Email')
+            input.form-control(type='text' placeholder='Email', name='email')
           .col-md-4
             label
-            input.form-control(type='text' placeholder='Phone')
+            input.form-control(type='text' placeholder='Phone', name='phone')
           .col-md-12
             label
-            textarea.form-control(rows='9' placeholder='Your message here..')
+            textarea.form-control(rows='9' placeholder='Your message here..', name='text')
           .col-md-4.col-md-offset-4
             label
-            button.btn.btn-primary.btn-block.btn-lg(type='button' data-toggle='modal' data-target='#alertModal')
+            button.btn.btn-primary.btn-block.btn-lg(type='button' data-toggle='modal' data-target='#alertModal')#send-mail
               | Send 
               i.ion-android-arrow-forward
 footer#footer
@@ -154,9 +154,8 @@ footer#footer
   .modal-dialog.modal-sm
     .modal-content
       .modal-body
-        h2.text-center Nice Job!
+        h2.text-center
         p.text-center
-          | You clicked the button, but it doesn&apos;t actually go anywhere because this is only a demo.
         br
         button.btn.btn-primary.btn-lg.center-block(data-dismiss='modal' aria-hidden='true')
           | OK 
