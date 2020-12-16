@@ -127,7 +127,8 @@ footer {
 .navbar-default {
     border: none;
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color:transparent;
+    border-color: rgba(34,34,34,.05);
+    background-color: rgba(0,0,0,0.8);
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
@@ -182,8 +183,8 @@ footer {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: transparent;
-        background-color: transparent;
+        border-color: rgba(34,34,34,.05);
+        background-color: rgba(0,0,0,0.8);
         min-height: 60px;
     }
 
